@@ -37,6 +37,7 @@
 
 console.log(`--------------------------
 Question 1. Creating & 'console.log()'ing variables \n`);
+console.log("Hello I am putting in Alien Romulus.")
 
 /**
  * Instruction: Create a variable for each step, then print that variable 
@@ -51,23 +52,41 @@ Question 1. Creating & 'console.log()'ing variables \n`);
  * Step 6: Create a variable to hold a street address.
  * ↓ YOUR CODE HERE ↓ */
 
+// For all the variables below, Camel Case is used
+// Named variable to availableFlightSeats to make it more descriptive.
+// Added a space after the string to give the variable space. 
 console.log("Step 1:  Number of Seats on a Plane");
+var availableFlightSeats = 5
+console.log("The number of seats left on this flight is " + availableFlightSeats)
 
-
+// Named variable to costOfGroceries to make it more descriptive.
+// Added a space after the string to give the variable space. 
 console.log("Step 2:  Cost of Groceries");
+var costOfGroceries = 23.99
+console.log("The cost of grocerias is " + costOfGroceries)
 
-
+// Named variable to middleInitial to make it more descriptive.
+// Added a space after the string to give the variable space. 
 console.log("Step 3:  Middle Initial");
+var middleInitial = "H"
+console.log("My middle initial is " + middleInitial)
 
-
+// Named variable to isItHotOutside to make it more descriptive.
+// Added a space after the string to give the variable space.
+// Made variable "false", because it is definitely not hot outside. 
 console.log("Step 4:  Is it Hot Outside?");
+var isItHotOutside = false
+console.log("Is it hot outside? " + isItHotOutside)
 
-
+// Named variable to firstNameCustomer to make it more descriptive.
+// Added a space after the string to give the variable space. 
 console.log("Step 5:  First Name");
+var firstNameCustomer = "Greg"
+console.log("The customer's first name is " + firstNameCustomer)
 
 
 console.log("Step 6:  Street Address");
-
+var = streetAddress = "9303 Lyon Drive, Hill Valley, CA 95420"
 
 /*-------------------------------------------------------*/
 
